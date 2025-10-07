@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.colorswitcher.MainController" prefHeight="200.0" prefWidth="300.0">
+    <Rectangle fx:id="colorRectangle" width="200.0" height="100.0" fill="blue" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="30.0"/>
+    <ToggleButton fx:id="toggleButton" text="Switch Color" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="150.0" onAction="#handleToggle"/>
+    <Label fx:id="colorLabel" text="Current Color: Blue" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="120.0"/>
+</AnchorPane>
